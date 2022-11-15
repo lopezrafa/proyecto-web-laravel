@@ -1,0 +1,86 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face{
+	font-family: "Neuville";
+	src: url('assets/fonts/Neuville.woff');
+} 
+*{
+	font-family: "Neuville", sans-serif;
+}
+
+.avatar_perfil{
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+.avatar_mask{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.avatar_mask img{
+	border-radius: 990px;
+	width: 50px;
+	overflow: hidden;
+}
+
+.card-header{
+	background-color: #1f1f1f !important;
+}
+.card-header h3{
+	font-size: 24px;
+	padding: 5px;
+
+}
+.card-header a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.card-header a:hover{
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+.post-image{
+	height: 200px;
+	overflow: hidden;
+}
+
+.card-cat a{
+	color: orange;
+}
+
+footer{
+	height: auto;
+	padding: 25px;
+	background-color: #f6cd61;
+}
+
+.cabecera{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+
+.cabecera img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    object-position: center center;
+}
+
+footer a{
+	text-decoration: none;
+	color: #1f1f1f;
+}
+
+footer a:hover{
+	opacity: 0.6;
+}
+
+.imagepostdetail{
+	height: 250px;
+	overflow: hidden;
+}

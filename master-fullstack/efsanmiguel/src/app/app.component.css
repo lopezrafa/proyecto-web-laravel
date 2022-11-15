@@ -1,0 +1,22 @@
+.escudo{
+	margin-left: 1.5vh;
+}
+
+@media (max-width: 400px){
+
+	.escudo{
+		max-width: 50px;
+		margin-right: 5px;
+		
+	}
+	
+}
+
+.menucat{
+	font-family: "Arial", sans-serif;
+	font-weight: 400;
+}
+.menucat:hover{
+
+	border-bottom: 2px solid #ccc;
+}
